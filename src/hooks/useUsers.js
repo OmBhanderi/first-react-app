@@ -15,7 +15,7 @@ export const useUsers = () => {
     try {
       const data = await fetchUsers();
       setUsers(data);
-      // console.log(data)
+     
     } catch (err) {
       setError(err.message || 'Failed to fetch users');
     } finally {

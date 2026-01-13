@@ -16,7 +16,7 @@ const UserList = () => {
   if (error) {
     return <div className="error">Error: {error}</div>;
   }
-  console.log(users);
+
   return (
     <div className="user-list">
       <h2>User List</h2>
